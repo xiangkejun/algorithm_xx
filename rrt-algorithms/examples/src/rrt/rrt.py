@@ -21,12 +21,12 @@ class RRT(RRTBase):
         https://en.wikipedia.org/wiki/Rapidly-exploring_random_tree
         :return: list representation of path, dict representing edges of tree in form E[child] = parent
         """
-        self.add_vertex(0, self.x_init)
+        self.add_vertex(0, self.x_init)    # 添加顶点
         self.add_edge(0, self.x_init, None)
 
         while True:
             for q in self.Q:  # iterate over different edge lengths until solution found or time out
-                for i in range(q[1]):  # iterate over number of edges of given length to add
+                for i in range(q[1]):  # iterate over number of edges of given length to add # q[1] = 4
                     x_new, x_nearest = self.new_and_near(0, q)
 
                     if x_new is None:
