@@ -1,4 +1,5 @@
-  ## """快速排序"""
+# https://www.cnblogs.com/xxtalhr/p/10768593.html
+## """快速排序"""
 # 方法一：
 # def quickSort(arr):
 #     if len(arr) <= 1:
