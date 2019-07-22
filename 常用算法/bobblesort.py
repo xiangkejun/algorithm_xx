@@ -1,3 +1,4 @@
+# 冒泡排序
 def bubble_sort(nums):
 
     for i in range(len(nums) - 1):  # 这个循环负责设置冒泡排序进行的次数（比如说n个数，则只要进行n-1次冒泡，就可以把这个n个数排序好，对吧）

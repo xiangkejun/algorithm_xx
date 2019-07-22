@@ -3,6 +3,7 @@
 #1、we just use the simple sort algorithm to get the smallest number per loop,which the time-consuming is O(n)
 #2、next we can define a function that a loop to get the small value every loop,and the append the value into a new Array
 #to get the minmum value
+# 选择排序
 def getmin(arr):
     min = arr[0];
     min_index = 0;
