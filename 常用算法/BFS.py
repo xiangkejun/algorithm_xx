@@ -22,4 +22,5 @@ def BFS(graph,s):
                 seen.add(w)
         print(vertex)
 
-print(BFS(graph,"A"))
+print(BFS(graph,"A")) # A B C D E F
+print(BFS(graph,"E")) # E C D A B F
